@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$base-font: 'Roboto';
+$title-padding: 3em;
+
+body * {
+ font-family: $base-font;
+ font-size: 18px;
+}
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3.5px;
+}
+h2 {
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+p {
+    letter-spacing: 1.2px;
+    line-height: 20px;
+}
+strong {
+    font-weight: bold;
+}
+a {
+    color: rgba(44, 44, 44);
+    text-decoration: underline;
+}

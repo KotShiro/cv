@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+    .main {
+        flex-direction: column;
+    }
+    .s1, .s2 {
+        width: 100%;
+    }
+    .pen {
+        transform: rotate(45deg) scale(0.5);
+        top:  -159px !important;
+    }
+  }
