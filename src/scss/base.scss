@@ -152,6 +152,32 @@ body {
 	color: gold;
 	text-shadow: 1px 1px #c60;
 }
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer__links {
+        display: flex;
+        border-top: 3px solid black;
+    }
+    .footer__item {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .footer__item:last-child {
+        margin-right: 0;
+    }
+}
+.btn {
+    padding: 0;
+    font-size: 18px;
+    text-decoration: underline;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
 .s32 {
     display: inline-block;
     height: 32px;
@@ -164,13 +190,15 @@ body {
     height: 64px;
     width: 64px;
     background-size: cover;
-    margin: 0 5px;
+    margin: 15px;
 }
 .contact__list a:hover {
     filter: blur(1px);
 }
 .sample__item a:hover,
-.education a:hover {
+.education a:hover,
+.btn:hover,
+.footer__item a:hover {
     color: #5f9ea0;
 }
 @media screen and (max-width: 769px) {
@@ -195,5 +223,8 @@ body {
     .root .pen {
         transform: rotate(45deg) scale(0.5);
         top:  -159px;
+    }
+    .s64 {
+        margin: 0 5px;
     }
 }
